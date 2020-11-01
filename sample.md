@@ -28,7 +28,7 @@ _run_one_demo.bat
 #### Cfs\library\  
   
 cfr_arith.bas  
-&emsp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
+  * R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
 &emsp;using GMP functions for performing integer arithmetic  
   
 cfr_math.bas  
@@ -66,8 +66,8 @@ cf_Gosper.bas
 &emsp;Gosper's numbers in HAKMEM 239, items 97-101  
   
 cf_constants.bas  
-&emsp;Generate mathematical constants from continued fractions:  
-&emsp;&emsp;sin(1 degree)  
+ * Generate mathematical constants from continued fractions:  
+   * sin(1 degree)  
 &emsp;&emsp;i to the power i  
 &emsp;&emsp;Omega (w * exp(w) = 1)  
 &emsp;&emsp;Euler's constant  
