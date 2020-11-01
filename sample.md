@@ -1,6 +1,7 @@
-# continued-fraction-math-library
-### Cfr is a FreeBASIC library for computing with continued fractions.
+## continued-fraction-math-library
 ```
+Cfr is a FreeBASIC library for computing with continued fractions.
+
 
 The Cf length (thus the maximum precision) is fixed at compile time,
 also the number of mpz state registers (a b c d) / (e f g h).
@@ -8,7 +9,7 @@ Both are set in include file modules\cfr_lib.bi
 
 
 ```
-### Contents of the Cfs packet
+#### Contents of the Cfs packet
 ```
 
 Makefiles are in the base directory
