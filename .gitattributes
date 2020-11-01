@@ -1,6 +1,10 @@
 # exclude markdown and .gitattributes from archive
 *.md      export-ignore
 .git*     export-ignore
+# do not touch
+*.a       binary
+*.dll     binary
+*.dll.a   binary
 # overrides
 *.bas     linguist-language=FreeBasic
 *.bi      linguist-language=FreeBasic
