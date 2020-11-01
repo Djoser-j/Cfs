@@ -29,7 +29,7 @@ _run_one_demo.bat
   
 cfr_arith.bas  
 &ensp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
-   using GMP functions for performing integer arithmetic  
+&emsp;using GMP functions for performing integer arithmetic  
   
 cfr_math.bas  
    Generate algebraic and transcendental functions using cfr_arith  
