@@ -10,20 +10,6 @@ Both are set in include file modules\cfr_lib.bi
 ### Contents of the Cfs packet
   
   
-Makefiles are in the base directory  
-(-W1ndows only, but easy to adapt):  
-  
-1_make_cfr_dll.bat  
-2_make_cf_demos.bat  
-3_run_all_demos.bat  
-  
-_make_one_demo.bat  
-_run_one_demo.bat  
-  
-  
-#### Cfs\workdir\  
-&emsp; Will hold logfiles  
-  
 #### Cfs\library\  
   
 cfr_arith.bas  
@@ -94,6 +80,20 @@ cf_polroot
 cf_trees.bas  
 &emsp; P. J. Potts' expression trees for transcendental functions.  
 &emsp; Iterating the logistic map  
+  
+  
+#### Cfs\workdir\  
+&emsp; Will hold logfiles  
+
+Makefiles are in the **base directory**  
+(-W1ndows only, but easy to adapt):  
+  
+1_make_cfr_dll.bat  
+2_make_cf_demos.bat  
+3_run_all_demos.bat  
+  
+_make_one_demo.bat  
+_run_one_demo.bat  
   
   
 #### Copyright:  
