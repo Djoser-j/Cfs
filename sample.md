@@ -22,83 +22,84 @@ _run_one_demo.bat
   
   
 #### Cfs\workdir\  
-   Will hold logfiles  
+&emsp;Will hold logfiles  
   
   
 #### Cfs\library\  
   
 cfr_arith.bas  
-&ensp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
+&emsp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
 &emsp;using GMP functions for performing integer arithmetic  
   
 cfr_math.bas  
-   Generate algebraic and transcendental functions using cfr_arith  
+&emsp;Generate algebraic and transcendental functions using cfr_arith  
   
 libgmp-10.dll.a  
-   GMP import library for dynamic linking  
+&emsp;GMP import library for dynamic linking  
   
 libcfr_math.dll.a  
-   cfr_math import library  
+&emsp;cfr_math import library  
   
   
 #### Cfs\modules\bin\  
   
 libgmp-10.dll  
-   GMP dynamic link library, 32-bit, build 6.1.1  
+&emsp;GMP dynamic link library, 32-bit, build 6.1.1  
   
 cfr_math.dll  
-   cfr_math dynamic link library, 32-bit  
+&emsp;fr_math dynamic link library, 32-bit  
   
 #### Cfs\modules\  
   
 cfr_lib.bi  
-   Include file for continued fraction arithmetic  
+&emsp;Include file for continued fraction arithmetic  
   
 gmp_short.bi  
-   Include file for the GMP functions called by cfr  
+&emsp;Include file for the GMP functions called by cfr  
   
 cf_first.bas  
-   First steps: input conversion, convergents,  
-   building Cf power and cube root functions  
+&emsp;First steps: input conversion, convergents,  
+&emsp;building Cf power and cube root functions  
   
 cf_Gosper.bas  
-   Knuth exercises and Gosper's Appendix 2,  
-   Gosper's numbers in HAKMEM 239, items 97-101  
+&emsp;Knuth exercises and Gosper's Appendix 2,  
+&emsp;Gosper's numbers in HAKMEM 239, items 97-101  
   
 cf_constants.bas  
-   Generate mathematical constants from continued fractions:  
-      sin(1 degree)  
-      i to the power i  
-      Omega (w * exp(w) = 1)  
-      Euler's constant  
-      ln(2)  
-      Gauss' constant  
-      Catalan's constant  
-      Apéry's constant zeta(3)  
-      gamma(1/4)  
+&emsp;Generate mathematical constants from continued fractions:  
+&emsp;&emsp;sin(1 degree)  
+&emsp;&emsp;i to the power i  
+&emsp;&emsp;Omega (w * exp(w) = 1)  
+&emsp;&emsp;Euler's constant  
+&emsp;&emsp;ln(2)  
+&emsp;&emsp;Gauss' constant  
+&emsp;&emsp;Catalan's constant  
+&emsp;&emsp;Apéry's constant zeta(3)  
+&emsp;&emsp;gamma(1/4)  
   
 cf_ratarg.bas  
-   Applications with (Gaussian) rational arguments:  
-      sin((x + yi) / w)  
-      exp(pi * (x + yi) / w)  
-      principal value of Log(x + yi)  
-      complete elliptic integrals with rational parameter m = x / y  
-      Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
-      demo run for functions with rational arguments x / y in cfr_math  
+&emsp;Applications with (Gaussian) rational arguments:  
+&emsp;&emsp;sin((x + yi) / w)  
+&emsp;&emsp;exp(pi * (x + yi) / w)  
+&emsp;&emsp;principal value of Log(x + yi)  
+&emsp;&emsp;complete elliptic integrals with rational parameter m = x / y  
+&emsp;&emsp;Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
+&emsp;&emsp;demo run for functions with rational arguments x / y in cfr_math  
   
 cf_trans.bas  
-   Demo run for functions with Cf arguments in cfr_math library  
+&emsp;Demo run for functions with Cf arguments in cfr_math library  
   
 cf_polroot  
-   Continued fraction expansion of real polynomial roots  
+&emsp;Continued fraction expansion of real polynomial roots  
   
 cf_trees.bas  
-   P. J. Potts' expression trees for transcendental functions.  
-   Iterating the logistic map  
+&emsp;P. J. Potts' expression trees for transcendental functions.  
+&emsp;Iterating the logistic map  
   
   
 #### Copyright:  
           (C) 2020 Djoser.j.Spacher, All rights reserved  
+&emsp;&emsp;&emsp;&emsp;&emsp;Djoser  
   
 #### License:  
           GNU General Public License, GPL  
