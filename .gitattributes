@@ -1,0 +1,3 @@
+# exclude markdown, .gitignore and similar
+*.md       export-ignore
+.git*      export-ignore
