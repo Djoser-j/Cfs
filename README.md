@@ -103,7 +103,7 @@ _run_one_demo.bat
 #### License:  
 &emsp;&emsp;&emsp;&emsp;&emsp; GNU General Public License, GPL  
   
-&emsp;&emsp;&emsp;&emsp;&emsp; ______________________________________________  
+&emsp;&emsp;&emsp;&emsp; ______________________________________________  
   
 Find HAKMEM paper (Gosper on continued fractions) [here](https://perl.plover.com/classes/cftalk/INFO/hakmem.html)  
   
