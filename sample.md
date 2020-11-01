@@ -5,8 +5,8 @@ Cfr is a FreeBASIC library for computing with continued fractions.
 The Cf length (thus the maximum precision) is fixed at compile time,  
 also the number of mpz state registers (a b c d) / (e f g h).  
 Both are set in include file modules\cfr_lib.bi  
-  
-  
+&nbsp;  
+&nbsp;  
 ### Contents of the Cfs packet
   
   
@@ -22,86 +22,86 @@ _run_one_demo.bat
   
   
 #### Cfs\workdir\  
-&emsp;Will hold logfiles  
+&emsp; Will hold logfiles  
   
   
 #### Cfs\library\  
   
 cfr_arith.bas  
-&emsp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
-&emsp;using GMP functions for performing integer arithmetic  
+&emsp; R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
+&emsp; using GMP functions for performing integer arithmetic  
   
 cfr_math.bas  
-&emsp;Generate algebraic and transcendental functions using cfr_arith  
+&emsp; Generate algebraic and transcendental functions using cfr_arith  
   
 libgmp-10.dll.a  
-&emsp;GMP import library for dynamic linking  
+&emsp; GMP import library for dynamic linking  
   
 libcfr_math.dll.a  
-&emsp;cfr_math import library  
+&emsp; cfr_math import library  
   
   
 #### Cfs\modules\bin\  
   
 libgmp-10.dll  
-&emsp;GMP dynamic link library, 32-bit, build 6.1.1  
+&emsp; GMP dynamic link library, 32-bit, build 6.1.1  
   
 cfr_math.dll  
-&emsp;cfr_math dynamic link library, 32-bit  
+&emsp; cfr_math dynamic link library, 32-bit  
   
 #### Cfs\modules\  
   
 cfr_lib.bi  
-&emsp;Include file for continued fraction arithmetic  
+&emsp; Include file for continued fraction arithmetic  
   
 gmp_short.bi  
-&emsp;Include file for the GMP functions called by cfr  
+&emsp; Include file for the GMP functions called by cfr  
   
 cf_first.bas  
-&emsp;First steps: input conversion, convergents,  
-&emsp;building Cf power and cube root functions  
+&emsp; First steps: input conversion, convergents,  
+&emsp; building Cf power and cube root functions  
   
 cf_Gosper.bas  
-&emsp;Knuth exercises and Gosper's Appendix 2,  
-&emsp;Gosper's numbers in HAKMEM 239, items 97-101  
+&emsp; Knuth exercises and Gosper's Appendix 2,  
+&emsp; Gosper's numbers in HAKMEM 239, items 97-101  
   
 cf_constants.bas  
-&emsp;Generate mathematical constants from continued fractions:  
-&emsp;&emsp;sin(1 degree)  
-&emsp;&emsp;i to the power i  
-&emsp;&emsp;Omega (w * exp(w) = 1)  
+&emsp; Generate mathematical constants from continued fractions:  
+&emsp;&emsp; sin(1 degree)  
+&emsp;&emsp; i to the power i  
+&emsp;&emsp; Omega (w * exp(w) = 1)  
 &emsp;&emsp; Euler's constant  
-&emsp;&emsp;ln(2)  
-&emsp;&emsp;Gauss' constant  
-&emsp;&emsp;Catalan's constant  
-&emsp;&emsp;Apéry's constant zeta(3)  
-&emsp;&emsp;gamma(1/4)  
+&emsp;&emsp; ln(2)  
+&emsp;&emsp; Gauss' constant  
+&emsp;&emsp; Catalan's constant  
+&emsp;&emsp; Apéry's constant zeta(3)  
+&emsp;&emsp; gamma(1/4)  
   
 cf_ratarg.bas  
-&emsp;Applications with (Gaussian) rational arguments:  
-&emsp;&emsp;sin((x + yi) / w)  
-&emsp;&emsp;exp(pi * (x + yi) / w)  
-&emsp;&emsp;principal value of Log(x + yi)  
-&emsp;&emsp;complete elliptic integrals with rational parameter m = x / y  
-&emsp;&emsp;Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
-&emsp;&emsp;demo run for functions with rational arguments x / y in cfr_math  
+&emsp; Applications with (Gaussian) rational arguments:  
+&emsp;&emsp; sin((x + yi) / w)  
+&emsp;&emsp; exp(pi * (x + yi) / w)  
+&emsp;&emsp; principal value of Log(x + yi)  
+&emsp;&emsp; complete elliptic integrals with rational parameter m = x / y  
+&emsp;&emsp; Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
+&emsp;&emsp; demo run for functions with rational arguments x / y in cfr_math  
   
 cf_trans.bas  
-&emsp;Demo run for functions with Cf arguments in cfr_math library  
+&emsp; Demo run for functions with Cf arguments in cfr_math library  
   
 cf_polroot  
-&emsp;Continued fraction expansion of real polynomial roots  
+&emsp; Continued fraction expansion of real polynomial roots  
   
 cf_trees.bas  
-&emsp;P. J. Potts' expression trees for transcendental functions.  
-&emsp;Iterating the logistic map  
+&emsp; P. J. Potts' expression trees for transcendental functions.  
+&emsp; Iterating the logistic map  
   
   
 #### Copyright:  
-&emsp;&emsp;&emsp;&emsp;&emsp;(C) 2020 Djoser.j.Spacher, All rights reserved  
+&emsp;&emsp;&emsp;&emsp;&emsp; (C) 2020 Djoser.j.Spacher, All rights reserved  
   
 #### License:  
-&emsp;&emsp;&emsp;&emsp;&emsp;GNU General Public License, GPL  
+&emsp;&emsp;&emsp;&emsp;&emsp; GNU General Public License, GPL  
   
           ______________________________________________  
   
