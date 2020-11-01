@@ -105,11 +105,8 @@ cf_trees.bas
   
           ______________________________________________  
   
-Find HAKMEM paper (Gosper on continued fractions) here:  
-  https://perl.plover.com/classes/cftalk/INFO/hakmem.html  
+Find HAKMEM paper (Gosper on continued fractions) [here](https://perl.plover.com/classes/cftalk/INFO/hakmem.html)  
   
-Find 'Appendix 2' on continued fraction arithmetic here:  
-  https://perl.plover.com/classes/cftalk/INFO/gosper.txt  
+Find 'Appendix 2' on continued fraction arithmetic [here](https://perl.plover.com/classes/cftalk/INFO/gosper.txt)  
   
-2017-09-08 W1ndows port of the GMP library downloaded from:  
-  https://sourceforge.net/projects/mingw/files/MinGW/Base/gmp/gmp-6.1.2/
+2017-09-08 W1ndows port of the [GMP library](https://sourceforge.net/projects/mingw/files/MinGW/Base/gmp/gmp-6.1.2/)  
