@@ -1,4 +1,5 @@
-# continued-fraction-math-library
+# continued-fraction-math-library  
+  
 Cfr is a FreeBASIC library for computing with continued fractions.  
   
   
@@ -7,7 +8,7 @@ also the number of mpz state registers (a b c d) / (e f g h).
 Both are set in include file modules\cfr_lib.bi  
   
   
-### Contents of the Cfs packet
+### Contents of the Cfs packet  
   
   
 #### Cfs\library\  
@@ -103,7 +104,7 @@ _run_one_demo.bat
 #### License:  
 &emsp;&emsp;&emsp;&emsp;&emsp; GNU General Public License, GPL  
   
-&emsp;&emsp;&emsp;&emsp; ______________________________________________  
+&emsp;&emsp;&emsp; ______________________________________________  
   
 Find HAKMEM paper (Gosper on continued fractions) [here](https://perl.plover.com/classes/cftalk/INFO/hakmem.html)  
   
