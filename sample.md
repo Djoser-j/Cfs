@@ -28,7 +28,7 @@ _run_one_demo.bat
 #### Cfs\library\  
   
 cfr_arith.bas  
-   R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
+&ensp;R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
    using GMP functions for performing integer arithmetic  
   
 cfr_math.bas  
