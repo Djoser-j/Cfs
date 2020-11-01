@@ -47,7 +47,7 @@ libgmp-10.dll
 &emsp;GMP dynamic link library, 32-bit, build 6.1.1  
   
 cfr_math.dll  
-&emsp;fr_math dynamic link library, 32-bit  
+&emsp;cfr_math dynamic link library, 32-bit  
   
 #### Cfs\modules\  
   
@@ -98,11 +98,10 @@ cf_trees.bas
   
   
 #### Copyright:  
-          (C) 2020 Djoser.j.Spacher, All rights reserved  
-&emsp;&emsp;&emsp;&emsp;&emsp;Djoser  
+&emsp;&emsp;&emsp;&emsp;&emsp;(C) 2020 Djoser.j.Spacher, All rights reserved  
   
 #### License:  
-          GNU General Public License, GPL  
+&emsp;&emsp;&emsp;&emsp;&emsp;GNU General Public License, GPL  
   
           ______________________________________________  
   
