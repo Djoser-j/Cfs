@@ -95,6 +95,7 @@ Makefiles are in the **base directory**
 _make_one_demo.bat  
 _run_one_demo.bat  
   
+&nbsp;  
   
 #### Copyright:  
 &emsp;&emsp;&emsp;&emsp;&emsp; (C) 2020 Djoser.j.Spacher, All rights reserved  
@@ -102,7 +103,7 @@ _run_one_demo.bat
 #### License:  
 &emsp;&emsp;&emsp;&emsp;&emsp; GNU General Public License, GPL  
   
-          ______________________________________________  
+&emsp;&emsp;&emsp;&emsp;&emsp; ______________________________________________  
   
 Find HAKMEM paper (Gosper on continued fractions) [here](https://perl.plover.com/classes/cftalk/INFO/hakmem.html)  
   
