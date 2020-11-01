@@ -1,4 +1,11 @@
-# exclude markdown, .gitignore and similar
-*.md    export-ignore
-.git*   export-ignore
-*.bas   linguist-language=FreeBasic
+# exclude markdown and .gitattributes from archive
+*.md      export-ignore
+.git*     export-ignore
+# overrides
+*.bas     linguist-language=FreeBasic
+*.bi      linguist-language=FreeBasic
+*.bat     linguist-detectable=false
+*.log     linguist-detectable=false
+*.a       linguist-vendored=true
+*.dll     linguist-vendored=true
+*.dll.a   linguist-vendored=true
