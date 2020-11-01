@@ -24,7 +24,6 @@ _run_one_demo.bat
 #### Cfs\workdir\  
 &emsp; Will hold logfiles  
   
-  
 #### Cfs\library\  
   
 cfr_arith.bas  
