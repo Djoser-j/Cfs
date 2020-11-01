@@ -1,3 +1,4 @@
 # exclude markdown, .gitignore and similar
-*.md       export-ignore
-.git*      export-ignore
+*.md    export-ignore
+.git*   export-ignore
+*.bas   linguist-language=FreeBasic
