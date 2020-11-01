@@ -21,7 +21,7 @@ _run_one_demo.bat
 
 
 Cfs\workdir\
-  Will hold logfiles
+  Will hold logfiles
 
 
 Cfs\library\
