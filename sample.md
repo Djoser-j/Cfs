@@ -1,4 +1,4 @@
-## continued-fraction-math-library
+# continued-fraction-math-library
 Cfr is a FreeBASIC library for computing with continued fractions.  
   
   
@@ -7,7 +7,7 @@ also the number of mpz state registers (a b c d) / (e f g h).
 Both are set in include file modules\cfr_lib.bi  
   
   
-#### Contents of the Cfs packet
+### Contents of the Cfs packet
   
   
 Makefiles are in the base directory  
@@ -21,11 +21,11 @@ _make_one_demo.bat
 _run_one_demo.bat  
   
   
-Cfs\workdir\  
+#### Cfs\workdir\  
   Will hold logfiles  
   
   
-Cfs\library\  
+#### Cfs\library\  
   
 cfr_arith.bas  
   R. W. Gosper's continued fraction arithmetic: a FreeBASIC library  
@@ -41,7 +41,7 @@ libcfr_math.dll.a
   cfr_math import library  
   
   
-Cfs\modules\bin\  
+#### Cfs\modules\bin\  
   
 libgmp-10.dll  
   GMP dynamic link library, 32-bit, build 6.1.1  
@@ -49,7 +49,7 @@ libgmp-10.dll
 cfr_math.dll  
   cfr_math dynamic link library, 32-bit  
   
-Cfs\modules\  
+#### Cfs\modules\  
   
 cfr_lib.bi  
   Include file for continued fraction arithmetic  
@@ -97,10 +97,10 @@ cf_trees.bas
   Iterating the logistic map  
   
   
-Copyright:  
+#### Copyright:  
           (C) 2020 Djoser.j.Spacher, All rights reserved  
   
-  License:  
+#### License:  
           GNU General Public License, GPL  
   
           ______________________________________________  
