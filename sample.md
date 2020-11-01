@@ -67,24 +67,24 @@ cf_Gosper.bas
   
 cf_constants.bas  
 &emsp; Generate mathematical constants from continued fractions:  
-&emsp;&emsp; sin(1 degree)  
-&emsp;&emsp; i to the power i  
-&emsp;&emsp; Omega (w * exp(w) = 1)  
-&emsp;&emsp; Euler's constant  
-&emsp;&emsp; ln(2)  
-&emsp;&emsp; Gauss' constant  
-&emsp;&emsp; Catalan's constant  
-&emsp;&emsp; Apéry's constant zeta(3)  
-&emsp;&emsp; gamma(1/4)  
+&emsp; &emsp; sin(1 degree)  
+&emsp; &emsp; i to the power i  
+&emsp; &emsp; Omega (w * exp(w) = 1)  
+&emsp; &emsp; Euler's constant  
+&emsp; &emsp; ln(2)  
+&emsp; &emsp; Gauss' constant  
+&emsp; &emsp; Catalan's constant  
+&emsp; &emsp; Apéry's constant zeta(3)  
+&emsp; &emsp; gamma(1/4)  
   
 cf_ratarg.bas  
 &emsp; Applications with (Gaussian) rational arguments:  
-&emsp;&emsp; sin((x + yi) / w)  
-&emsp;&emsp; exp(pi * (x + yi) / w)  
-&emsp;&emsp; principal value of Log(x + yi)  
-&emsp;&emsp; complete elliptic integrals with rational parameter m = x / y  
-&emsp;&emsp; Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
-&emsp;&emsp; demo run for functions with rational arguments x / y in cfr_math  
+&emsp; &emsp; sin((x + yi) / w)  
+&emsp; &emsp; exp(pi * (x + yi) / w)  
+&emsp; &emsp; principal value of Log(x + yi)  
+&emsp; &emsp; complete elliptic integrals with rational parameter m = x / y  
+&emsp; &emsp; Lambert's function: x / y = z, solve Cf_w * exp(Cf_w) = z  
+&emsp; &emsp; demo run for functions with rational arguments x / y in cfr_math  
   
 cf_trans.bas  
 &emsp; Demo run for functions with Cf arguments in cfr_math library  
