@@ -1,8 +1,6 @@
-# exclude markdown and .gitattributes from archive
-*.md      export-ignore
+# exclude .gitattributes etc from archive
 .git*     export-ignore
 # do not touch
-*.a       binary
 *.dll     binary
 *.dll.a   binary
 # overrides
@@ -10,6 +8,5 @@
 *.bi      linguist-language=FreeBasic
 *.bat     linguist-detectable=false
 *.log     linguist-detectable=false
-*.a       linguist-vendored=true
 *.dll     linguist-vendored=true
 *.dll.a   linguist-vendored=true
