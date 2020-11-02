@@ -5,13 +5,12 @@
 #include "cfr_lib.bi"
 #inclib "cfr_math"
 
-#define no_BR
+#define noiter '                       define power function iterative
 
 'integer powers and cube root
 ' *****************************************************************************
-#ifdef __BR
+#ifdef iter
 'Cf_a:= Cf_g ^ k, integer k
-'breadth-first
 sub Cpwr (byref a as cf, byref g as cf, byval k as short)
 dim as integer fl = (getsw and 2) <> 0
 dim n as cfa, b as cf
@@ -59,8 +58,8 @@ clrs
 end sub
 
 #else
+'recursive
 'Cf_r:= Cf_a ^ k, integer k
-'depth-first
 sub Cpwr (byref r as cf, byref a as cf, byval k as short)
 dim jx as const integer = 14
 dim as integer b(jx), i, j
