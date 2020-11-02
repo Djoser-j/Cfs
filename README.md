@@ -1,7 +1,7 @@
 Continued fraction math library  
  =============================
 Cfs is a FreeBASIC library for computing with continued fractions.  
-  
+Unpack to the base directory of your FreeBasic installation.  
   
 The Cf length (thus the maximum precision) is fixed at compile time,  
 also the number of mpz state registers (a b c d) / (e f g h).  
