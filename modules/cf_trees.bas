@@ -660,9 +660,10 @@ end sub
 'logistic map x <- rx * (1 - x)
 'chaotic orbit r = 4 (bit-shift map)
 sub logistic (byval ix as const integer)
-dim i as integer, d as long
+dim as integer i, t
 dim as cfa m, n(ix)
 dim as cf a, c
+dim as long d
 
 print : ? "logistic map" : ?
 
@@ -670,40 +671,46 @@ cvcf a, 43/64
 outcf "a", a
 
 setvw 1 + Cfx \ 2
-print "breadth-first"
 m.ini: c = a
 for i = 0 to ix
    m.x = c: m.y = c
    tset m, -4,4,0,0, 0,0,0,1
    dobf(c, m)
 next i
-outcf "c_"+str(i), c
+outcf "i_"+str(i), c
 
+clrs
 setvw Cfx
+if ix < 1 then exit sub
+
 if Regs < ix+2 then
-   print : ? "depth-first demo needs more state registers:"
+   print : ? "recursion demo needs more state registers:"
    print "set Regs >"; ix+1; " in cfr_lib.bi and recompile.": ?
 
 else
-   clrs
    for i = 0 to ix
       n(i).ini
       tset n(i), -4,4,0,0, 0,0,0,1
    next i
 
-   print "depth-first, true orbit"
+   print "recursive: true orbit"
    n(0).x = a
    n(0).y = a
-   c.ini
+   c.ini: t = 1
    do
-      for i = 1 to ix
-        d = nextbfd(n(i-1))
-        push n(i).x, d
-        push n(i).y, d
-      next i
-      push c, nextbfd(n(ix))
+      i = 0
+      do
+         i += 1
+         d = nextbfd(n(i-1))
+         push n(i).x, d
+         push n(i).y, d
+         if d > Hold then '            current depth
+            if i = t then t = i + 1
+         end if
+      loop while (t > i) and (i < ix)
+      push c, nextbfd(n(i))
    loop until tm(c)
-   outcf "c_"+str(i), c
+   outcf "t_"+str(t), c
 
 end if
 
