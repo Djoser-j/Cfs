@@ -61,8 +61,8 @@ cf_first.bas
 cf_Gosper.bas  
   Knuth exercises and Gosper's Appendix 2,  
   Gosper's numbers in HAKMEM 239, items 97-101  
-(To get acquainted with the library, download the papers  
- and find the corresponding code in this file.)  
+(To get acquainted with the library, download the  
+ papers and find the corresponding code in this file.)  
   
 cf_constants.bas  
   Generate mathematical constants from continued fractions:  
