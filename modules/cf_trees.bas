@@ -1,6 +1,6 @@
 ' *****************************************************************************
 'Subject: Expression trees for transcendental functions.
-'Ref.   : P. J. Potts, Exact Real Arithmetic using Möbius Transformations,
+'Ref.   : P. J. Potts, Exact Real Arithmetic using MÃ¶bius Transformations,
 '         PhD thesis Imperial College London, 1998, Chapter 10, pp.135-156.
 'Author : Djoser.j.Spacher
 'Code   : FreeBasic 1.06.0 with GMP library 6.1.1
@@ -659,7 +659,7 @@ end sub
 
 'logistic map x <- rx * (1 - x)
 'chaotic orbit r = 4 (bit-shift map)
-sub logistic (byval ix as const integer)
+sub logistic (byval ix as const short)
 dim as integer i, t
 dim as cfa m, n(ix)
 dim as cf a, c
