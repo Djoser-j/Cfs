@@ -647,7 +647,7 @@ dim c as cf
 
       m.ini: cf2mpq m, a
       with m
-         select case sw '              Möbius transformations
+         select case sw '              MÃ¶bius transformations
          case 1
          ' m:= 0,x - y,0,0, 0,y + x,0,1
             mpz_sub  tmp,.u(1),.v(1)
