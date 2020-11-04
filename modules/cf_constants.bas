@@ -402,14 +402,14 @@ zeta3cf = d
 end function
 
 ' OEIS A013631
-'proven irrational in 1978 by R. Apéry
+'proven irrational in 1978 by R. ApÃ©ry
 sub zeta3 ()
 dim as cfa n=cfa(0)
 dim as cf c
 dim t as integer
 n.ini
 
-print : ? "Apéry's constant" : ?
+print : ? "ApÃ©ry's constant" : ?
 
    tset n, 0,5,0,2, 0,4,0,2 '          1 + (b d) / 2(f h)
    c.ini: t = 0
