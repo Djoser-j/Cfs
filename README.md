@@ -13,7 +13,6 @@ The same file laconically doubles as library documentation.
   
   
 Makefiles are in the **base directory**  
-(-W1ndows only, but easy to adapt):  
   
 1_make_cfr_dll.bat  
 2_make_cf_demos.bat  
@@ -61,8 +60,7 @@ cf_first.bas
 cf_Gosper.bas  
   Knuth exercises and Gosper's Appendix 2,  
   Gosper's numbers in HAKMEM 239, items 97-101  
-(To get acquainted with the library, download the  
- papers and find the corresponding code in this file.)  
+ (Compare the code with the papers to get acquainted with the lib.)  
   
 cf_constants.bas  
   Generate mathematical constants from continued fractions:  
@@ -120,4 +118,4 @@ on continued fraction arithmetic
   
 [The FreeBASIC compiler](https://sourceforge.net/projects/fbc/files/)  
   
-[W1ndows port of the GMP library](https://sourceforge.net/projects/mingw/files/MinGW/Base/gmp/gmp-6.1.2/)  
+[Windows port of the GMP library](https://sourceforge.net/projects/mingw/files/MinGW/Base/gmp/gmp-6.1.2/)  
