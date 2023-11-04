@@ -2,11 +2,10 @@
 .git*     export-ignore
 # do not touch
 *.dll     binary
-*.dll.a   binary
 # overrides
 *.bas     linguist-language=FreeBasic
 *.bi      linguist-language=FreeBasic
 *.bat     linguist-detectable=false
 *.log     linguist-detectable=false
-*.dll     linguist-vendored=true
-*.dll.a   linguist-vendored=true
+*.sh      linguist-detectable=false
+*.dll     linguist-vendored=true 
