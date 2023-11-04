@@ -14,12 +14,34 @@ The same file laconically doubles as library documentation.
   
 Makefiles are in the **base directory**  
   
-1_make_cfr_dll.bat  
-2_make_cf_demos.bat  
-3_run_all_demos.bat  
+Windows  
   
-\_make_one_demo.bat  
-\_run_one_demo.bat  
+fbc_path.bat  
+  Edit path to the FreeBasic compiler  
+  
+make_cfr_dll.bat  
+  Compile dynamic cfr library  
+1_make_cf_demos.bat  
+  Executables are saved in modules/bin  
+2_run_all_demos.bat  
+  Results are written to logfiles in workdir  
+  
+\make.bat  
+\run.bat  
+  Single module command line scripts
+  
+Linux  
+  
+Requires GMP library libgmp10 and developers tools libgmp-dev to be installed.  
+  
+make_cfr_so.sh  
+1_make_cf_demos.sh  
+2_installso.sh  
+  Install shared library libcfr_math  
+3_run_all_demos.sh  
+  
+\make.sh  
+\run.sh  
   
   
 #### Cfs\library\  
@@ -30,20 +52,14 @@ cfr_arith.bas
 cfr_math.bas  
   Generate algebraic and transcendental functions using cfr_arith  
   
-libgmp-10.dll.a  
-  GMP import library for dynamic linking  
-  
-libcfr_math.dll.a  
-  cfr_math import library  
-  
   
 #### Cfs\modules\bin\  
   
-libgmp-10.dll  
-  GMP dynamic link library, 32-bit, build 6.1.1  
+libgmp-32.dll  
+  GMP dynamic link library, 32-bit, build 6.2.1  
   
-cfr_math.dll  
-  cfr_math dynamic link library  
+libgmp-64.dll  
+  GMP dynamic link library, 64-bit, build 6.2.1  
   
 #### Cfs\modules\  
   
@@ -100,7 +116,7 @@ cf_trees.bas
    
   
 #### Copyright:  
-        (C) 2020 Djoser.j.Spacher, All rights reserved  
+        (C) 2023 Djoser.j.Spacher, All rights reserved  
   
 #### License:  
         GNU General Public License, GPL  
@@ -118,4 +134,4 @@ on continued fraction arithmetic
   
 [The FreeBASIC compiler](https://sourceforge.net/projects/fbc/files/)  
   
-[Windows port of the GMP library](https://sourceforge.net/projects/mingw/files/MinGW/Base/gmp/gmp-6.1.2/)  
+[Windows 32-bit and 64-bit ports of the GMP library](https://drive.google.com/file/d/1PNbZB-Ia7-YM7aI3PvmMo6fS2BtMA3hd/view?usp=sharing)  
