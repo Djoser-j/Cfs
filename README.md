@@ -17,19 +17,10 @@ Makefiles are in the **base directory**
 Windows  
   
 fbc_path.bat  
-  Edit path to the FreeBasic compiler  
-  
 make_cfr_dll.bat  
-  Compile dynamic cfr library  
 1_make_cf_demos.bat  
-  Executables are saved in modules/bin  
 2_run_all_demos.bat  
-  Results are written to logfiles in workdir  
-  
-\make.bat  
-\run.bat  
-  Single module command line scripts
-  
+   
 Linux  
   
 Requires GMP library libgmp10 and developers tools libgmp-dev to be installed.  
@@ -37,11 +28,9 @@ Requires GMP library libgmp10 and developers tools libgmp-dev to be installed.
 make_cfr_so.sh  
 1_make_cf_demos.sh  
 2_installso.sh  
-  Install shared library libcfr_math  
 3_run_all_demos.sh  
   
-\make.sh  
-\run.sh  
+A few additional scripts are in **Cfs\library\more\\**  
   
   
 #### Cfs\library\  
@@ -106,7 +95,7 @@ cf_polroot
   Continued fraction expansion of real polynomial roots  
   
 cf_trees.bas  
-  P. J. Potts' expression trees for transcendental functions.  
+  P. J. Potts' expression trees for transcendental functions  
   Iterating the logistic map  
   
   
